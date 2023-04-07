@@ -5,7 +5,7 @@ d = generate_distutils_setup(
     packages=['rospy', 'rospy.impl'],
     package_dir={'': 'src'},
     scripts=['scripts/rosconsole'],
-    requires=['genpy', 'numpy', 'rosgraph', 'roslib', 'rospkg']
+    requires=['genpy', 'numpy', 'rosgraph', 'roslib', 'rospkg', 'catkin_pkg']
 )
 
 setup(**d)
